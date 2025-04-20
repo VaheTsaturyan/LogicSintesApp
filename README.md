@@ -1,0 +1,3 @@
+# LogicSintezApp
+# LogicSintezApp
+# LogicSintesApp
