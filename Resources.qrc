@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/LogicGates/and.png</file>
+        <file>Resources/LogicGates/or.png</file>
+        <file>Resources/LogicGates/nand.png</file>
+        <file>Resources/LogicGates/nor.png</file>
+        <file>Resources/LogicGates/not.png</file>
+        <!-- Add other resources here -->
+    </qresource>
+</RCC>
