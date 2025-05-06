@@ -8,9 +8,9 @@
 class View 
 {
 public:
-    ~View(std::shared_ptr<doc::Document> doc, Cus); 
+    ~View(std::shared_ptr<doc::Document> doc, ); 
 
 private:
-
+    
 
 };

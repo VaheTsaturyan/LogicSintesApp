@@ -281,6 +281,64 @@ AGraphicsItem* AndGraphicsItem::clone()
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
+///And3 Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+And3GraphicsItem::And3GraphicsItem(QGraphicsItem *parent)
+: AGraphicsItem(parent)
+{
+}
+
+void And3GraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/and_3.png"));
+    QRectF rect = boundingRect();
+    painter->setPen(QPen(Qt::blue));
+    // painter->drawPoint(rect.y()+rect.height(), rect.x()+rect.width()/2);
+    // painter->setPen(QPen(Qt::red));
+    // painter->drawPoint(rect.y(), rect.x()+3*rect.width()/4);
+    // painter->drawPoint(rect.y(), rect.x()+rect.width()/4);
+    painter->drawText(boundingRect(), "and_3");
+}
+
+
+AGraphicsItem* And3GraphicsItem::clone()
+{
+    return new And3GraphicsItem();
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+///And4 Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+And4GraphicsItem::And4GraphicsItem(QGraphicsItem *parent)
+: AGraphicsItem(parent)
+{
+}
+
+void And4GraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/and_4.png"));
+    QRectF rect = boundingRect();
+    painter->setPen(QPen(Qt::blue));
+    // painter->drawPoint(rect.y()+rect.height(), rect.x()+rect.width()/2);
+    // painter->setPen(QPen(Qt::red));
+    // painter->drawPoint(rect.y(), rect.x()+3*rect.width()/4);
+    // painter->drawPoint(rect.y(), rect.x()+rect.width()/4);
+    painter->drawText(boundingRect(), "and 4");
+}
+
+
+AGraphicsItem* And4GraphicsItem::clone()
+{
+    return new And4GraphicsItem();
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
 ///Or Graphic Ithem
 /////////////////////////////////////////////////////////////////////////////////////////////////
 OrGraphicsItem::OrGraphicsItem(QGraphicsItem *parent)
@@ -301,6 +359,54 @@ void OrGraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *op
 AGraphicsItem* OrGraphicsItem::clone()
 {
     return new OrGraphicsItem();
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+///Or3 Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+Or3GraphicsItem::Or3GraphicsItem(QGraphicsItem *parent)
+: AGraphicsItem(parent)
+{
+    
+}
+
+void Or3GraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for3 your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/or_3.png"));
+    painter->setPen(QPen(Qt::blue));
+    painter->drawText(boundingRect(), "or 3");
+}
+
+AGraphicsItem* Or3GraphicsItem::clone()
+{
+    return new Or3GraphicsItem();
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+///Or4 Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+Or4GraphicsItem::Or4GraphicsItem(QGraphicsItem *parent)
+: AGraphicsItem(parent)
+{
+    
+}
+
+void Or4GraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for4 your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/or_4.png"));
+    painter->setPen(QPen(Qt::blue));
+    painter->drawText(boundingRect(), "or 4");
+}
+
+AGraphicsItem* Or4GraphicsItem::clone()
+{
+    return new Or4GraphicsItem();
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -327,6 +433,52 @@ AGraphicsItem* NandGraphicsItem::clone()
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
+///Nand3 Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+Nand3GraphicsItem::Nand3GraphicsItem(QGraphicsItem *parent)
+: AGraphicsItem(parent)
+{
+    
+}
+
+void Nand3GraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/nand_3.png"));
+    painter->setPen(QPen(Qt::blue));
+    painter->drawText(boundingRect(), "nand 3");
+}
+
+AGraphicsItem* Nand3GraphicsItem::clone()
+{    
+    return new Nand3GraphicsItem();
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+///Nand4 Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+Nand4GraphicsItem::Nand4GraphicsItem(QGraphicsItem *parent)
+: AGraphicsItem(parent)
+{
+    
+}
+
+void Nand4GraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/nand_4.png"));
+    painter->setPen(QPen(Qt::blue));
+    painter->drawText(boundingRect(), "nand 4");
+}
+
+AGraphicsItem* Nand4GraphicsItem::clone()
+{    
+    return new Nand4GraphicsItem();
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
 ///Nor Graphic Ithem
 /////////////////////////////////////////////////////////////////////////////////////////////////
 NorGraphicsItem::NorGraphicsItem(QGraphicsItem *parent)
@@ -346,6 +498,50 @@ void NorGraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *o
 AGraphicsItem* NorGraphicsItem::clone()
 {
     return new NorGraphicsItem();
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+///Nor3 Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+Nor3GraphicsItem::Nor3GraphicsItem(QGraphicsItem *parent)
+: AGraphicsItem(parent)
+{    
+}
+
+void Nor3GraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/nor_3.png"));
+    painter->setPen(QPen(Qt::blue));
+    painter->drawText(boundingRect(), "nor 3");
+}
+
+AGraphicsItem* Nor3GraphicsItem::clone()
+{
+    return new Nor3GraphicsItem();
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+///Nor4 Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+Nor4GraphicsItem::Nor4GraphicsItem(QGraphicsItem *parent)
+: AGraphicsItem(parent)
+{    
+}
+
+void Nor4GraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/nor_4.png"));
+    painter->setPen(QPen(Qt::blue));
+    painter->drawText(boundingRect(), "nor 4");
+}
+
+AGraphicsItem* Nor4GraphicsItem::clone()
+{
+    return new Nor4GraphicsItem();
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -394,6 +590,51 @@ AGraphicsItem* XorGraphicsItem::clone()
     return new XorGraphicsItem();
 }
 
+//////////////////////////////////////////////////////////////////////////////////////////////////
+///Xor3 Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+Xor3GraphicsItem::Xor3GraphicsItem(QGraphicsItem *parent)
+    : AGraphicsItem(parent)
+{
+    
+}
+
+void Xor3GraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/xor_3.png"));
+    painter->setPen(QPen(Qt::blue));
+    painter->drawText(boundingRect(), "xor 3");
+}
+
+AGraphicsItem* Xor3GraphicsItem::clone()
+{
+    return new Xor3GraphicsItem();
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+///Xor4 Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+Xor4GraphicsItem::Xor4GraphicsItem(QGraphicsItem *parent)
+    : AGraphicsItem(parent)
+{
+    
+}
+
+void Xor4GraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/xor_4.png"));
+    painter->setPen(QPen(Qt::blue));
+    painter->drawText(boundingRect(), "xor 4");
+}
+
+AGraphicsItem* Xor4GraphicsItem::clone()
+{
+    return new Xor4GraphicsItem();
+}
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 ///Xnor Graphic Ithem
@@ -417,6 +658,56 @@ AGraphicsItem* XnorGraphicsItem::clone()
 {
     return new XnorGraphicsItem();
 }
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+///Xnor3 Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+Xnor3GraphicsItem::Xnor3GraphicsItem(QGraphicsItem *parent)
+    : AGraphicsItem(parent)
+{
+    
+}
+
+void Xnor3GraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/xnor_3.png"));
+    painter->setPen(QPen(Qt::blue));
+    painter->drawText(boundingRect(), "xnor 3");
+}
+
+AGraphicsItem* Xnor3GraphicsItem::clone()
+{
+    return new Xnor3GraphicsItem();
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+///Xnor4 Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+Xnor4GraphicsItem::Xnor4GraphicsItem(QGraphicsItem *parent)
+    : AGraphicsItem(parent)
+{
+    
+}
+
+void Xnor4GraphicsItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/xnor_4.png"));
+    painter->setPen(QPen(Qt::blue));
+    painter->drawText(boundingRect(), "xnor 4");
+}
+
+AGraphicsItem* Xnor4GraphicsItem::clone()
+{
+    return new Xnor4GraphicsItem();
+}
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 ///Input Graphic Ithem
@@ -463,6 +754,101 @@ AGraphicsItem* OutputGraphicIthem::clone()
 {
     return new OutputGraphicIthem();
 }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+///mux_2 Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+Mux2GraphicIthem::Mux2GraphicIthem(QGraphicsItem *parent)
+    : AGraphicsItem(parent)
+{
+    
+}
+
+void Mux2GraphicIthem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/mux_2.png"));
+    painter->setPen(QPen(Qt::blue));
+    painter->drawText(boundingRect(), "mux 2");
+}
+
+AGraphicsItem* Mux2GraphicIthem::clone()
+{
+    return new Mux2GraphicIthem();
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+///mux_4 Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+Mux4GraphicIthem::Mux4GraphicIthem(QGraphicsItem *parent)
+: AGraphicsItem(parent)
+{
+
+}
+
+void Mux4GraphicIthem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/mux_4.png"));
+    painter->setPen(QPen(Qt::blue));
+    painter->drawText(boundingRect(), "mux 4");
+}
+
+AGraphicsItem* Mux4GraphicIthem::clone()
+{
+    return new Mux4GraphicIthem();
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+///half_adder Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+HalfAdderGraphicIthem::HalfAdderGraphicIthem(QGraphicsItem *parent)
+: AGraphicsItem(parent)
+{
+
+}
+
+void HalfAdderGraphicIthem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/half_adder.png"));
+    painter->setPen(QPen(Qt::blue));
+    painter->drawText(boundingRect(), "half adder");
+}
+
+AGraphicsItem* HalfAdderGraphicIthem::clone()
+{
+    return new HalfAdderGraphicIthem();
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+///full_adder Graphic Ithem
+/////////////////////////////////////////////////////////////////////////////////////////////////
+FullAdderGraphicIthem::FullAdderGraphicIthem(QGraphicsItem *parent)
+: AGraphicsItem(parent)
+{
+
+}
+
+void FullAdderGraphicIthem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+    // This should be customized for your specific item
+    //painter->drawRect(boundingRect());
+    painter->drawImage(boundingRect(), QImage("/home/vts/repos/LogicSintesApp/Resources/LogicGates/full_adder.png"));
+    painter->setPen(QPen(Qt::blue));
+    painter->drawText(boundingRect(), "full adder");
+}
+
+AGraphicsItem* FullAdderGraphicIthem::clone()
+{
+    return new FullAdderGraphicIthem();
+}
+
+
 
 }//namespace gui
 

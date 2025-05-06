@@ -382,6 +382,150 @@ int gui::AndGraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     _id = AGraphicsItem::qt_metacall(_c, _id, _a);
     return _id;
 }
+struct qt_meta_stringdata_gui__And3GraphicsItem_t {
+    QByteArrayData data[1];
+    char stringdata0[22];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__And3GraphicsItem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__And3GraphicsItem_t qt_meta_stringdata_gui__And3GraphicsItem = {
+    {
+QT_MOC_LITERAL(0, 0, 21) // "gui::And3GraphicsItem"
+
+    },
+    "gui::And3GraphicsItem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__And3GraphicsItem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::And3GraphicsItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::And3GraphicsItem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__And3GraphicsItem.data,
+    qt_meta_data_gui__And3GraphicsItem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::And3GraphicsItem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::And3GraphicsItem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__And3GraphicsItem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::And3GraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gui__And4GraphicsItem_t {
+    QByteArrayData data[1];
+    char stringdata0[22];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__And4GraphicsItem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__And4GraphicsItem_t qt_meta_stringdata_gui__And4GraphicsItem = {
+    {
+QT_MOC_LITERAL(0, 0, 21) // "gui::And4GraphicsItem"
+
+    },
+    "gui::And4GraphicsItem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__And4GraphicsItem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::And4GraphicsItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::And4GraphicsItem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__And4GraphicsItem.data,
+    qt_meta_data_gui__And4GraphicsItem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::And4GraphicsItem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::And4GraphicsItem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__And4GraphicsItem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::And4GraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
 struct qt_meta_stringdata_gui__OrGraphicsItem_t {
     QByteArrayData data[1];
     char stringdata0[20];
@@ -450,6 +594,150 @@ void *gui::OrGraphicsItem::qt_metacast(const char *_clname)
 }
 
 int gui::OrGraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gui__Or3GraphicsItem_t {
+    QByteArrayData data[1];
+    char stringdata0[21];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__Or3GraphicsItem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__Or3GraphicsItem_t qt_meta_stringdata_gui__Or3GraphicsItem = {
+    {
+QT_MOC_LITERAL(0, 0, 20) // "gui::Or3GraphicsItem"
+
+    },
+    "gui::Or3GraphicsItem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__Or3GraphicsItem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::Or3GraphicsItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::Or3GraphicsItem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__Or3GraphicsItem.data,
+    qt_meta_data_gui__Or3GraphicsItem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::Or3GraphicsItem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::Or3GraphicsItem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__Or3GraphicsItem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::Or3GraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gui__Or4GraphicsItem_t {
+    QByteArrayData data[1];
+    char stringdata0[21];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__Or4GraphicsItem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__Or4GraphicsItem_t qt_meta_stringdata_gui__Or4GraphicsItem = {
+    {
+QT_MOC_LITERAL(0, 0, 20) // "gui::Or4GraphicsItem"
+
+    },
+    "gui::Or4GraphicsItem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__Or4GraphicsItem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::Or4GraphicsItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::Or4GraphicsItem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__Or4GraphicsItem.data,
+    qt_meta_data_gui__Or4GraphicsItem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::Or4GraphicsItem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::Or4GraphicsItem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__Or4GraphicsItem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::Or4GraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = AGraphicsItem::qt_metacall(_c, _id, _a);
     return _id;
@@ -526,6 +814,150 @@ int gui::NandGraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     _id = AGraphicsItem::qt_metacall(_c, _id, _a);
     return _id;
 }
+struct qt_meta_stringdata_gui__Nand3GraphicsItem_t {
+    QByteArrayData data[1];
+    char stringdata0[23];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__Nand3GraphicsItem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__Nand3GraphicsItem_t qt_meta_stringdata_gui__Nand3GraphicsItem = {
+    {
+QT_MOC_LITERAL(0, 0, 22) // "gui::Nand3GraphicsItem"
+
+    },
+    "gui::Nand3GraphicsItem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__Nand3GraphicsItem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::Nand3GraphicsItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::Nand3GraphicsItem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__Nand3GraphicsItem.data,
+    qt_meta_data_gui__Nand3GraphicsItem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::Nand3GraphicsItem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::Nand3GraphicsItem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__Nand3GraphicsItem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::Nand3GraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gui__Nand4GraphicsItem_t {
+    QByteArrayData data[1];
+    char stringdata0[23];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__Nand4GraphicsItem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__Nand4GraphicsItem_t qt_meta_stringdata_gui__Nand4GraphicsItem = {
+    {
+QT_MOC_LITERAL(0, 0, 22) // "gui::Nand4GraphicsItem"
+
+    },
+    "gui::Nand4GraphicsItem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__Nand4GraphicsItem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::Nand4GraphicsItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::Nand4GraphicsItem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__Nand4GraphicsItem.data,
+    qt_meta_data_gui__Nand4GraphicsItem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::Nand4GraphicsItem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::Nand4GraphicsItem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__Nand4GraphicsItem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::Nand4GraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
 struct qt_meta_stringdata_gui__NorGraphicsItem_t {
     QByteArrayData data[1];
     char stringdata0[21];
@@ -594,6 +1026,150 @@ void *gui::NorGraphicsItem::qt_metacast(const char *_clname)
 }
 
 int gui::NorGraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gui__Nor3GraphicsItem_t {
+    QByteArrayData data[1];
+    char stringdata0[22];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__Nor3GraphicsItem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__Nor3GraphicsItem_t qt_meta_stringdata_gui__Nor3GraphicsItem = {
+    {
+QT_MOC_LITERAL(0, 0, 21) // "gui::Nor3GraphicsItem"
+
+    },
+    "gui::Nor3GraphicsItem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__Nor3GraphicsItem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::Nor3GraphicsItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::Nor3GraphicsItem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__Nor3GraphicsItem.data,
+    qt_meta_data_gui__Nor3GraphicsItem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::Nor3GraphicsItem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::Nor3GraphicsItem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__Nor3GraphicsItem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::Nor3GraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gui__Nor4GraphicsItem_t {
+    QByteArrayData data[1];
+    char stringdata0[22];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__Nor4GraphicsItem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__Nor4GraphicsItem_t qt_meta_stringdata_gui__Nor4GraphicsItem = {
+    {
+QT_MOC_LITERAL(0, 0, 21) // "gui::Nor4GraphicsItem"
+
+    },
+    "gui::Nor4GraphicsItem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__Nor4GraphicsItem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::Nor4GraphicsItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::Nor4GraphicsItem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__Nor4GraphicsItem.data,
+    qt_meta_data_gui__Nor4GraphicsItem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::Nor4GraphicsItem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::Nor4GraphicsItem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__Nor4GraphicsItem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::Nor4GraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = AGraphicsItem::qt_metacall(_c, _id, _a);
     return _id;
@@ -742,6 +1318,150 @@ int gui::XorGraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     _id = AGraphicsItem::qt_metacall(_c, _id, _a);
     return _id;
 }
+struct qt_meta_stringdata_gui__Xor3GraphicsItem_t {
+    QByteArrayData data[1];
+    char stringdata0[22];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__Xor3GraphicsItem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__Xor3GraphicsItem_t qt_meta_stringdata_gui__Xor3GraphicsItem = {
+    {
+QT_MOC_LITERAL(0, 0, 21) // "gui::Xor3GraphicsItem"
+
+    },
+    "gui::Xor3GraphicsItem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__Xor3GraphicsItem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::Xor3GraphicsItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::Xor3GraphicsItem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__Xor3GraphicsItem.data,
+    qt_meta_data_gui__Xor3GraphicsItem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::Xor3GraphicsItem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::Xor3GraphicsItem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__Xor3GraphicsItem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::Xor3GraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gui__Xor4GraphicsItem_t {
+    QByteArrayData data[1];
+    char stringdata0[22];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__Xor4GraphicsItem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__Xor4GraphicsItem_t qt_meta_stringdata_gui__Xor4GraphicsItem = {
+    {
+QT_MOC_LITERAL(0, 0, 21) // "gui::Xor4GraphicsItem"
+
+    },
+    "gui::Xor4GraphicsItem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__Xor4GraphicsItem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::Xor4GraphicsItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::Xor4GraphicsItem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__Xor4GraphicsItem.data,
+    qt_meta_data_gui__Xor4GraphicsItem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::Xor4GraphicsItem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::Xor4GraphicsItem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__Xor4GraphicsItem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::Xor4GraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
 struct qt_meta_stringdata_gui__XnorGraphicsItem_t {
     QByteArrayData data[1];
     char stringdata0[22];
@@ -810,6 +1530,150 @@ void *gui::XnorGraphicsItem::qt_metacast(const char *_clname)
 }
 
 int gui::XnorGraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gui__Xnor3GraphicsItem_t {
+    QByteArrayData data[1];
+    char stringdata0[23];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__Xnor3GraphicsItem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__Xnor3GraphicsItem_t qt_meta_stringdata_gui__Xnor3GraphicsItem = {
+    {
+QT_MOC_LITERAL(0, 0, 22) // "gui::Xnor3GraphicsItem"
+
+    },
+    "gui::Xnor3GraphicsItem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__Xnor3GraphicsItem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::Xnor3GraphicsItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::Xnor3GraphicsItem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__Xnor3GraphicsItem.data,
+    qt_meta_data_gui__Xnor3GraphicsItem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::Xnor3GraphicsItem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::Xnor3GraphicsItem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__Xnor3GraphicsItem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::Xnor3GraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gui__Xnor4GraphicsItem_t {
+    QByteArrayData data[1];
+    char stringdata0[23];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__Xnor4GraphicsItem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__Xnor4GraphicsItem_t qt_meta_stringdata_gui__Xnor4GraphicsItem = {
+    {
+QT_MOC_LITERAL(0, 0, 22) // "gui::Xnor4GraphicsItem"
+
+    },
+    "gui::Xnor4GraphicsItem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__Xnor4GraphicsItem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::Xnor4GraphicsItem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::Xnor4GraphicsItem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__Xnor4GraphicsItem.data,
+    qt_meta_data_gui__Xnor4GraphicsItem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::Xnor4GraphicsItem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::Xnor4GraphicsItem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__Xnor4GraphicsItem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::Xnor4GraphicsItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = AGraphicsItem::qt_metacall(_c, _id, _a);
     return _id;
@@ -954,6 +1818,294 @@ void *gui::OutputGraphicIthem::qt_metacast(const char *_clname)
 }
 
 int gui::OutputGraphicIthem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gui__Mux2GraphicIthem_t {
+    QByteArrayData data[1];
+    char stringdata0[22];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__Mux2GraphicIthem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__Mux2GraphicIthem_t qt_meta_stringdata_gui__Mux2GraphicIthem = {
+    {
+QT_MOC_LITERAL(0, 0, 21) // "gui::Mux2GraphicIthem"
+
+    },
+    "gui::Mux2GraphicIthem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__Mux2GraphicIthem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::Mux2GraphicIthem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::Mux2GraphicIthem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__Mux2GraphicIthem.data,
+    qt_meta_data_gui__Mux2GraphicIthem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::Mux2GraphicIthem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::Mux2GraphicIthem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__Mux2GraphicIthem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::Mux2GraphicIthem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gui__Mux4GraphicIthem_t {
+    QByteArrayData data[1];
+    char stringdata0[22];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__Mux4GraphicIthem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__Mux4GraphicIthem_t qt_meta_stringdata_gui__Mux4GraphicIthem = {
+    {
+QT_MOC_LITERAL(0, 0, 21) // "gui::Mux4GraphicIthem"
+
+    },
+    "gui::Mux4GraphicIthem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__Mux4GraphicIthem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::Mux4GraphicIthem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::Mux4GraphicIthem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__Mux4GraphicIthem.data,
+    qt_meta_data_gui__Mux4GraphicIthem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::Mux4GraphicIthem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::Mux4GraphicIthem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__Mux4GraphicIthem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::Mux4GraphicIthem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gui__HalfAdderGraphicIthem_t {
+    QByteArrayData data[1];
+    char stringdata0[27];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__HalfAdderGraphicIthem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__HalfAdderGraphicIthem_t qt_meta_stringdata_gui__HalfAdderGraphicIthem = {
+    {
+QT_MOC_LITERAL(0, 0, 26) // "gui::HalfAdderGraphicIthem"
+
+    },
+    "gui::HalfAdderGraphicIthem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__HalfAdderGraphicIthem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::HalfAdderGraphicIthem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::HalfAdderGraphicIthem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__HalfAdderGraphicIthem.data,
+    qt_meta_data_gui__HalfAdderGraphicIthem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::HalfAdderGraphicIthem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::HalfAdderGraphicIthem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__HalfAdderGraphicIthem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::HalfAdderGraphicIthem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = AGraphicsItem::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_gui__FullAdderGraphicIthem_t {
+    QByteArrayData data[1];
+    char stringdata0[27];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_gui__FullAdderGraphicIthem_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_gui__FullAdderGraphicIthem_t qt_meta_stringdata_gui__FullAdderGraphicIthem = {
+    {
+QT_MOC_LITERAL(0, 0, 26) // "gui::FullAdderGraphicIthem"
+
+    },
+    "gui::FullAdderGraphicIthem"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_gui__FullAdderGraphicIthem[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void gui::FullAdderGraphicIthem::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    (void)_o;
+    (void)_id;
+    (void)_c;
+    (void)_a;
+}
+
+QT_INIT_METAOBJECT const QMetaObject gui::FullAdderGraphicIthem::staticMetaObject = { {
+    QMetaObject::SuperData::link<AGraphicsItem::staticMetaObject>(),
+    qt_meta_stringdata_gui__FullAdderGraphicIthem.data,
+    qt_meta_data_gui__FullAdderGraphicIthem,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *gui::FullAdderGraphicIthem::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *gui::FullAdderGraphicIthem::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_gui__FullAdderGraphicIthem.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "org.qt-project.Qt.QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return AGraphicsItem::qt_metacast(_clname);
+}
+
+int gui::FullAdderGraphicIthem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = AGraphicsItem::qt_metacall(_c, _id, _a);
     return _id;

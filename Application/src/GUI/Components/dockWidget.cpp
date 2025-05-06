@@ -62,13 +62,29 @@ LogicGatesDockWidget::LogicGatesDockWidget(QWidget *parent)
     // Add the logic gates
     addLogicGate("INPUT", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/input.png");
     addLogicGate("OUTPUT", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/output.png");
-    addLogicGate("AND", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/and.png");
-    addLogicGate("OR", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/or.png");
-    addLogicGate("NAND", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/nand.png");
-    addLogicGate("NOR", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/nor.png");
+    addLogicGate("AND_2", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/and.png");
+    addLogicGate("AND_3", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/and_3.png");
+    addLogicGate("AND_4", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/and_4.png");
+    addLogicGate("MUX_2", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/mux_2.png");
+    addLogicGate("MUX_4", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/mux_4.png");
+    addLogicGate("HALF_ADDER", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/half_adder.png");
+    addLogicGate("FULL_ADDER", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/full_adder.png");
+    addLogicGate("OR_2", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/or.png");
+    addLogicGate("OR_3", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/or_3.png");
+    addLogicGate("OR_4", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/or_4.png");
+    addLogicGate("NAND_2", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/nand.png");
+    addLogicGate("NAND_3", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/nand_3.png");
+    addLogicGate("NAND_4", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/nand_4.png");
+    addLogicGate("NOR_2", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/nor.png");
+    addLogicGate("NOR_3", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/nor_3.png");
+    addLogicGate("NOR_4", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/nor_4.png");
     addLogicGate("NOT", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/not.png");
-    addLogicGate("XOR", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/xor.png");
-    addLogicGate("XNOR", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/xnor.png");
+    addLogicGate("XOR_2", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/xor.png");
+    addLogicGate("XOR_3", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/xor_3.png");
+    addLogicGate("XOR_4", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/xor_4.png");
+    addLogicGate("XNOR_2", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/xnor.png");
+    addLogicGate("XNOR_4", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/xnor_3.png");
+    addLogicGate("XNOR_4", "/home/vts/repos/LogicSintesApp/Resources/LogicGates/xnor_4.png");
     // Create Previous Projects section
     QLabel *projectsLabel = new QLabel("Previous Projects", mainWidget);
     projectsLabel->setStyleSheet("font-weight: bold;");

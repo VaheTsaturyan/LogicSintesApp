@@ -367,15 +367,31 @@ void CustomGraphicsScene::wheelEvent(QGraphicsSceneWheelEvent *event)
 
 void CustomGraphicsScene::initGateMap()
 {
-    gateMap.emplace("AND",  new AndGraphicsItem());
-    gateMap.emplace("OR",   new OrGraphicsItem());
-    gateMap.emplace("NAND", new NandGraphicsItem());
-    gateMap.emplace("NOR",  new NorGraphicsItem());
+    gateMap.emplace("AND_2",  new AndGraphicsItem());
+    gateMap.emplace("AND_3",  new And3GraphicsItem());
+    gateMap.emplace("AND_4",  new And4GraphicsItem());
+    gateMap.emplace("OR_2",   new OrGraphicsItem());
+    gateMap.emplace("OR_3",   new Or3GraphicsItem());
+    gateMap.emplace("OR_4",   new Or4GraphicsItem());
+    gateMap.emplace("NAND_2", new NandGraphicsItem());
+    gateMap.emplace("NAND_3", new Nand3GraphicsItem());
+    gateMap.emplace("NAND_4", new Nand4GraphicsItem());
+    gateMap.emplace("NOR_2",  new NorGraphicsItem());
+    gateMap.emplace("NOR_3",  new Nor3GraphicsItem());
+    gateMap.emplace("NOR_4",  new Nor4GraphicsItem());
     gateMap.emplace("NOT",  new NotGraphicsItem());
-    gateMap.emplace("XOR",  new XorGraphicsItem());
-    gateMap.emplace("XNOR", new XnorGraphicsItem());
+    gateMap.emplace("XOR_2",  new XorGraphicsItem());
+    gateMap.emplace("XOR_3",  new Xor3GraphicsItem());
+    gateMap.emplace("XOR_4",  new Xor4GraphicsItem());
+    gateMap.emplace("XNOR_2", new XnorGraphicsItem());
+    gateMap.emplace("XNOR_3", new Xnor3GraphicsItem());
+    gateMap.emplace("XNOR_4", new Xnor4GraphicsItem());
     gateMap.emplace("INPUT",  new InputGraphicIthem());
     gateMap.emplace("OUTPUT", new OutputGraphicIthem());
+    gateMap.emplace("MUX_2",  new Mux2GraphicIthem());
+    gateMap.emplace("MUX_4",  new Mux4GraphicIthem());
+    gateMap.emplace("HALF_ADDER",  new HalfAdderGraphicIthem());
+    gateMap.emplace("FULL_ADDER",  new FullAdderGraphicIthem());
 }
 
 AGraphicsItem* CustomGraphicsScene::itemAtPosition(const QPointF& pos)
